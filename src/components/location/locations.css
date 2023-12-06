@@ -1,0 +1,64 @@
+
+.location-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-frame {
+    width: 70rem;
+    height: 40vh;
+    border-radius: 2rem;
+}
+.map-frame:hover {
+    width: 72rem;
+    height: 42vh;
+    transition: all 1s ease-in-out;
+
+}
+
+.location-frame {
+    max-width: 90rem;
+    width: 100%;
+}
+.location-text {
+    margin: 10rem;
+}
+
+.location-text h1 {
+    margin-bottom: 2rem;
+}
+
+.location-text h2 {
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+@media (max-width: 40rem){
+    .map-frame {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .location-frame {
+        width: 100%;
+    }
+    .location-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 80rem){
+    .map-frame {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .location-frame {
+        width: 100%;
+    }
+    .location-container {
+        flex-direction: column;
+    }
+}

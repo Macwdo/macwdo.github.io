@@ -4,7 +4,7 @@ import mainImage from "../../img/logo-bh-svg.svg";
 export default function ContactForm() {
   return (
     <>
-      <div id="contact" className="section main-bg">
+      <div id="contact" className="section primary-bg">
         <div className="main-content">
           <div className="contact-text container">
             <h1>Olá, você quer vir jogar com a gente?</h1>

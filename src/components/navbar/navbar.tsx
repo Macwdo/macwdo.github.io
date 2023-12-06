@@ -19,7 +19,16 @@ export default function Navbar() {
               <a href="#gallery">Galeria</a>
             </li>
             <li>
+              <a href="#info">Informações</a>
+            </li>
+            <li>
+              <a href="#clothes">Uniformes</a>
+            </li>
+            <li>
               <a href="#contact">Contato</a>
+            </li>
+            <li>
+              <a href="#location">Localização</a>
             </li>
           </ul>
         </nav>

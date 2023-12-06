@@ -6,6 +6,7 @@
     background: var(--white-color);
     color: var(--primary-color);
     width: 100%;
+    z-index: 1;
 }
 
 .navbar h1 {
@@ -53,3 +54,15 @@
     color: inherit;
 }
 
+@media (max-width: 40rem){
+ 
+    .navbar .navbar-content ul {
+        display: none;
+    }
+
+    .navbar .navbar-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
