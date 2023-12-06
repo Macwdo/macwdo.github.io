@@ -1,0 +1,53 @@
+.team-image-logo {
+    max-width: 18rem;
+    max-height: 18rem;
+    overflow: hidden;
+    margin: 2rem;
+}
+
+.team-image {
+    width: 100%;
+    max-width: 100%;
+    color: var(--white-color);
+}
+
+.team-image-bg {
+    background-image: url("../../img/team_image3.jpeg");
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.team-image-title h1 {
+    font-size: 13rem;
+
+}
+
+@media (max-width: 80rem) {
+    .team-image-title h1 {
+        font-size: 7rem;
+    }
+
+
+    .team-image-logo {
+        max-width: 10rem;
+        max-height: 10rem;
+        overflow: hidden;
+        margin: 2rem;
+    }
+}
+
+
+@media (max-width: 40rem) {
+    .team-image-title h1 {
+        font-size: 3rem;
+    }
+
+
+    .team-image-logo {
+        max-width: 7rem;
+        max-height: 7rem;
+        overflow: hidden;
+        margin: 1rem;
+    }
+}
