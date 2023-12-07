@@ -1,0 +1,22 @@
+
+
+.player-images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.player-image {
+    margin: 3rem;
+    width: 100%;
+    max-width: 36rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.player-image img {
+    max-width: 100%;
+    height: auto;
+}

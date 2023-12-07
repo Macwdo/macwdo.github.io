@@ -1,0 +1,21 @@
+.footer {
+    background: black;
+    min-height: 10rem;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: var(--white-color)
+}
+
+.footer a p {
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: var(--font-mont-serrat);
+}
+
+.footer a p:hover {
+    font-size: 2.5rem;
+    transition: all 100ms ease-in-out;
+}

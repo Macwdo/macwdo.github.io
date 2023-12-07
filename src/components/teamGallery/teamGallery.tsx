@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "./teamGallery.css";
 
+import imageTest from "../../img/team_image1.jpeg";
+import imageTest1 from "../../img/team_image2.jpeg";
+
 export default function TeamGallery() {
   const backgroundImagesClasses = [
     "team-image1-bg",
@@ -33,6 +36,10 @@ export default function TeamGallery() {
             onClick={changeImage}
             className={`team-gallery-content ${backgroundImageClass}`}
           ></div>
+          <div className="image-crop">
+            {/* <img src={imageTest} alt={imageTest} className="test-image" /> */}
+            {/* <img src={imageTest1} alt={imageTest1} className="test-image" /> */}
+          </div>
         </div>
       </section>
     </>

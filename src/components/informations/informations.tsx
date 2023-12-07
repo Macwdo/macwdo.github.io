@@ -3,30 +3,41 @@ import instagramSvg from "../../img/Instagram_logo_2022.svg";
 import whatsappSvg from "../../img/WhatsApp-GreenSquare-Logo.wine.svg";
 
 export default function Informations() {
-
   return (
     <section id="info" className="section primary-bg">
       <div className="main-content">
         <div className="info-title container">
-          <h1>Siga a gente nas redes sociais</h1>
+          <h1>Participe!</h1>
         </div>
 
         <div className="info-text">
           <p>
-            Nossos treinos acontencem toda quarta ás 19:00.
-            Estamos Localizados no Recreio dos bandeirantes, mais especificamente no clube
-            Novo Rio Country Club
+            Nossos treinos acontencem toda quarta das 20h30 às 23h00, atualmente
+            no Novo Rio Country Club - Recreio dos bandeirantes.
+            <br />
+            <br />
+            Veja o mapa clicando em "Localização".
+            <br />
+            <br />
+            Acompanhe o Treino nas nossas redes socias abaixo.
+            <br />
+            <br />
+            <i>
+              "HUHU É BROTHERHOODS! CORAÇÃO. É BROTHERHOODS! IRMANDADE. É
+              BROTHERHOODS!
+              <br />
+              <br />
+              ATÉ O FIM, É BROTHERHOODS!"
+            </i>
           </p>
         </div>
         <div className="info-footer container">
-        <div className="info-footer-text container">
-            <a
-              href="#location"
-            >
+          <div className="info-footer-text">
+            <a href="#location">
               <h2>Localização</h2>
             </a>
           </div>
-          <div className="info-footer-text container">
+          <div className="info-footer-text">
             <a
               href="https://www.instagram.com/futebolbrotherhoods/"
               target="_blank"
@@ -35,7 +46,7 @@ export default function Informations() {
               <img src={instagramSvg} alt={instagramSvg} className="ig-svg" />
             </a>
           </div>
-          <div className="info-footer-text container">
+          <div className="info-footer-text">
             <a href="#">
               <h2>Whatsapp</h2>
               <img src={whatsappSvg} alt={whatsappSvg} className="wpp-svg" />

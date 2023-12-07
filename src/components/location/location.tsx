@@ -6,14 +6,18 @@ export default function Location() {
       <div className="main-content ">
         <div className="location-container">
           <div className="location-text">
-            <h1>Onde estamos?</h1>
+            <h1>Estrutura</h1>
             <p>
-              Os treinos são realizados no Recreio dos bandeirantes. Mais
-              especificamente no clube Novo Rio Country Clube, mais conhecida
-              como Rua do zico
+              O grupo realiza a locação mensal de um campo society, localizado
+              no Clubo Novo Rio (mapa ao lado) com a finalidade de receber seus
+              convidados e amigos para uma partida amistosa de futebol
+              semanalmente.
+              <br />
+              <br />É cobrada uma taxa dos mensalistas de R$ 70 para manutenção
+              mensal do campo. Convidados que quiserem participar uma vez paga o
+              valor de R$ 20 pelo dia.
             </p>
-            <h2>Endereço</h2>
-            <p>Rua pimbolinha</p>
+            <h2>Faça sua visita</h2>
           </div>
           <div className="location-frame">
             <iframe

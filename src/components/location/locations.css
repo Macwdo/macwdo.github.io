@@ -23,10 +23,15 @@
 }
 .location-text {
     margin: 10rem;
+    background: var(--white-color);
+    color: var(--primary-color);
+    padding: 5rem 8rem;
+    border-radius: 2rem;
 }
 
 .location-text h1 {
     margin-bottom: 2rem;
+
 }
 
 .location-text h2 {

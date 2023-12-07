@@ -44,7 +44,6 @@
 .navbar-logo {
     max-width: 4rem;
     max-height: 4rem;
-    overflow: hidden;
     margin: 1rem;
 }
 
@@ -55,7 +54,6 @@
 }
 
 @media (max-width: 40rem){
- 
     .navbar .navbar-content ul {
         display: none;
     }

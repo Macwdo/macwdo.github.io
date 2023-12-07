@@ -18,8 +18,15 @@
     color: var(--white-color);
 }
 
+.team-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .team-image-title h1 {
     font-size: 13rem;
+    cursor: default;
 
 }
 
@@ -28,10 +35,13 @@
         font-size: 7rem;
     }
 
+    .team-image-container{
+        flex-direction: column;
+    }
 
     .team-image-logo {
-        max-width: 10rem;
-        max-height: 10rem;
+        max-width: 20rem;
+        max-height: 20rem;
         overflow: hidden;
         margin: 2rem;
     }
@@ -43,14 +53,19 @@
 
 
 @media (max-width: 40rem) {
+
+    .team-image-container{
+        flex-direction: column;
+    }
+
     .team-image-title h1 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
 
     .team-image-logo {
-        max-width: 7rem;
-        max-height: 7rem;
+        max-width: 20rem;
+        max-height: 20rem;
         overflow: hidden;
         margin: 1rem;
     }
