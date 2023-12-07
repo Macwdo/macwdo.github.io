@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./teamGallery.css";
 
-import imageTest from "../../img/team_image1.jpeg";
-import imageTest1 from "../../img/team_image2.jpeg";
+// import imageTest from "../../img/team_image1.jpeg";
+// import imageTest1 from "../../img/team_image2.jpeg";
 
 export default function TeamGallery() {
   const backgroundImagesClasses = [
