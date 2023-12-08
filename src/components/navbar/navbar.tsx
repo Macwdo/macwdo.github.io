@@ -18,6 +18,9 @@ export default function Navbar() {
             <a href="#gallery">Galeria</a>
           </li>
           <li>
+            <a href="#people">Pessoas</a>
+          </li>
+          <li>
             <a href="#info">Informações</a>
           </li>
           <li>

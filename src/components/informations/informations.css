@@ -8,6 +8,8 @@
     color: inherit;
     display: flex;
     padding: 1rem;
+    justify-content: center;
+
 }
 
 .info-text p {
