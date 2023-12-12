@@ -21,7 +21,7 @@ export default function Navbar() {
             <a href="#people">Pessoas</a>
           </li>
           <li>
-            <a href="#info">Informações</a>
+            <a href="#info">Úteis</a>
           </li>
           <li>
             <a href="#clothes">Uniformes</a>
