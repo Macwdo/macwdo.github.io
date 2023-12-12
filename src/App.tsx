@@ -1,5 +1,4 @@
 import "./App.css";
-import ContactForm from "./components/form/form";
 import Gallery from "./components/clothes/clothes";
 import Informations from "./components/informations/informations";
 import Location from "./components/location/location";
