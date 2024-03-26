@@ -1,4 +1,3 @@
-import ContactForm from "../form/form";
 import "./locations.css";
 
 export default function Location() {
