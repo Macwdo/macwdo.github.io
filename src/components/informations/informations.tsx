@@ -44,8 +44,8 @@ export default function Informations() {
               </a>
             </div>
             <div className="info-footer-text">
-              <a href="#">
-                <h2>Whatsapp</h2>
+              <a href="https://wa.me/5521970116252?text=Vim do site">
+                <h2>Whatsapp (Diretor Geral)</h2>
                 <img src={whatsappSvg} alt={whatsappSvg} className="wpp-svg" />
               </a>
             </div>
