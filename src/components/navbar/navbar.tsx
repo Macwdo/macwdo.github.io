@@ -14,20 +14,17 @@ export default function Navbar() {
           <h1>Brotherhoods</h1>
         </a>
         <ul className="navbar-list">
-          <li>
+          {/* <li>
             <a href="#gallery">Galeria</a>
-          </li>
+          </li> */}
           <li>
-            <a href="#people">Pessoas</a>
+            <a href="#people">Diretoria</a>
           </li>
           <li>
             <a href="#info">Úteis</a>
           </li>
           <li>
             <a href="#clothes">Uniformes</a>
-          </li>
-          <li>
-            <a href="#contact">Contato</a>
           </li>
           <li>
             <a href="#location">Localização</a>

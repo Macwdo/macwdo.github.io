@@ -14,7 +14,6 @@ import teamClothesImage7 from "./img/team_clothes/detalhes-2.fw.png";
 import teamClothesImage8 from "./img/team_clothes/detalhes-principal-1.fw.png";
 import teamClothesImage9 from "./img/team_clothes/detalhes-principal-2.fw.png";
 import teamClothesImage10 from "./img/team_clothes/produto oficial.fw.png";
-import TeamGallery from "./components/teamGallery/teamGallery";
 import Footer from "./components/footer/footer";
 import BestPlayers from "./components/best-players/bestPlayers";
 
@@ -30,7 +29,6 @@ function App() {
     <>
       <Navbar />
       <TeamImage />
-      <TeamGallery/>
       <BestPlayers/>
       <Informations />
       <div id="clothes" className="section white-bg">

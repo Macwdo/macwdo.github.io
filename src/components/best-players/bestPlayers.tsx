@@ -1,27 +1,55 @@
 import "./bestPlayers.css";
-import top1Player from "../../img/player1.jpeg";
-import top2Player from "../../img/player2.png";
-import top4Player from "../../img/player4.png";
-
 import PlayerCard from "./player-card";
 
 export default function BestPlayers() {
-  const images = [top1Player, top2Player, top4Player];
+
+  // const general_director = {
+  //   name: "Daniel Macedo",
+  //   picture: general_director_image,
+  //   title: "Diretor Geral",
+  //   text: "Responsável pelo planejamento e financeiro do futebol."
+  // }
+
+  const entertainment_director = {
+    name: "Victor Hugo",
+    picture: "entertainment-director-image",
+    title: "Diretor de Eventos e entretenimento",
+    text: "Responsável pelo planejamento das comemorações mensais e confraternizações anuais."
+  }
+
+  const products_director = {
+    name: "Adilson Junior",
+    picture: "products-director-image",
+    title: "Diretor de Produtos",
+    text: "Responsável pelo orçamento e aquisição dos produtos relativos ao futebol."
+  }
+
+  const external_relations_director = {
+    name: "Carlos Zattera",
+    picture: "external-relations-director-image",
+    title: "Relações Externas",
+    text: `
+      Responsável por realizar parcerias,
+      planejar jogos amistosos e inscrições 
+      em campeonatos amadores em nome do time
+    `
+  }
+
+  const directors = [external_relations_director, products_director, entertainment_director]
 
   return (
     <section id="people" className="section primary-bg">
       <div className="main-content">
         <div className="container">
-          <h1>Melhores do ano</h1>
+          <h1>Diretoria Colaborativa</h1>
         </div>
         <div className="player-images">
-          {images.map((image) => (
+          {directors.map((director) => (
             <PlayerCard
-              image={image}
-              name="Carlinhos"
-              text="lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptas voluptatum. 
-              "
-              title="Melhor"
+              image={director.picture}
+              name={director.name}
+              title={director.title}
+              text={director.text}
             />
           ))}
           <div />

@@ -38,6 +38,9 @@
 } */
 
 
+.our-gallery {
+    display: flex;
+}
 
 
 .team-gallery-content {

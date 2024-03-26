@@ -1,7 +1,8 @@
+
 interface PlayerCardProps {
   text: string;
   name: string;
-  image: string;
+  image: any;
   title: string;
 }
 
@@ -12,8 +13,8 @@ export default function PlayerCard(props: PlayerCardProps) {
         <h2>{props.title}</h2>
       </div>
       <div className="player-image-container">
-        <div className="player-image-crop">
-          <img src={props.image} alt={props.image} className="player-image" />
+        <div className="player-div-image">
+          <div className={`director-gallery-content ${props.image}`}></div>
         </div>
         <div className="player-image-text">
           <h2>{props.name}</h2>
